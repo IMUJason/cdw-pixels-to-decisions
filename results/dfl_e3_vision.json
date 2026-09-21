@@ -1,0 +1,58 @@
+{
+ "config": {
+  "n_train": 100,
+  "n_val": 30,
+  "n_test": 40,
+  "n_imgs": 8,
+  "n_sites": 5,
+  "d_scale": 2000.0,
+  "seed": 0,
+  "out": "D:\\2026 cdw 0911 datasets\\processed\\dfl_e3_vision.json"
+ },
+ "val": [
+  {
+   "method": "mse",
+   "mean_regret": 2395.433520016889,
+   "median": 4.656612873077393e-10,
+   "worst": 68777.68520958861,
+   "nan": 0
+  },
+  {
+   "method": "hybrid_0.9",
+   "mean_regret": 31441.649684367723,
+   "median": 8.149072527885437e-10,
+   "worst": 591406.3144032555,
+   "nan": 0
+  }
+ ],
+ "test": [
+  {
+   "method": "no-vision(mean mix)",
+   "mean_regret": 55299.056030646854,
+   "median": 2.3283064365386963e-10,
+   "worst": 1023965.5751305269,
+   "nan": 0
+  },
+  {
+   "method": "vision+MSE",
+   "mean_regret": 46731.01870425905,
+   "median": 1.3969838619232178e-09,
+   "worst": 1023965.5751305269,
+   "nan": 0
+  },
+  {
+   "method": "vision+mse",
+   "mean_regret": 46731.01870425905,
+   "median": 1.3969838619232178e-09,
+   "worst": 1023965.5751305269,
+   "nan": 0
+  },
+  {
+   "method": "oracle(true comp)",
+   "mean_regret": 4.3655745685100555e-10,
+   "median": 0.0,
+   "worst": 3.259629011154175e-09,
+   "nan": 0
+  }
+ ]
+}
