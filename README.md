@@ -62,7 +62,7 @@ python scripts/run_saapred_variants.py
 | `run_zeroshot_resolution.py` | §5.4 Domain shift | mAP drops 0.821 → 0.008 |
 | `run_prior_adversarial.py` | §5.6 Robustness | ordering invariant under prior misspecification |
 | `run_ramses_masscheck.py` | §5.6 Weighed-data audit | structural floor 0.055 dex |
-| `run_spo_multi.py` + `run_spo_sanity.py` | §5.7 DFL boundary | SPO+ helps only when prediction is biased |
+| `run_spo_multi.py` + `run_spo_sanity.py` | Supplementary Material (DFL boundary) | SPO+ helps only when prediction is biased |
 
 ## License
 
