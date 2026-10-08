@@ -16,7 +16,7 @@ An end-to-end, fully reproducible pipeline that connects computer-vision-based C
 ## Prerequisites
 
 - Python 3.10+
-- IBM ILOG CPLEX Optimization Studio 22.11 (full version; the pip community edition caps at 1,000 variables)
+- IBM ILOG CPLEX Optimization Studio 22.1.1 (full version; the pip community edition caps at 1,000 variables)
 - NVIDIA GPU (optional; perception training takes ~9 GPU-hours, the decision suite runs in under an hour)
 
 ```bash
